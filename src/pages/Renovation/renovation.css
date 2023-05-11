@@ -1,0 +1,180 @@
+/********** Desktop ************/
+
+  /****Banner*********/
+  .banner {
+    width: 100%;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .banner_info {
+    position: absolute;
+    z-index: 3;
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .border_banner {
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 100%;
+  }
+  .banner_title {
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+    padding: 25px 25px;
+    letter-spacing: 3px;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .banner_img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+       opacity: 0.6;
+  }
+  .banner_img_left,
+  .banner_img_right {
+    width: 50%;
+    height: 300px;
+    margin: auto;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  
+  /*******Main****/
+  .title_center{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 30px;
+    display: flex;
+    letter-spacing: 0.2em;
+    color: #000000;
+    padding: 25px;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .renovation_cat{
+    padding-top: 30px;
+  }
+  .renovation_cat h3{
+    display : flex;
+    padding: 25px 0px ;
+    font-family: 'Poppins', sans-serif;
+    color: #ba1313;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    }
+  
+  .reno_carousel_display{
+      margin: 30px auto;
+      height: 500px;
+      max-width: 800px;
+  }
+  
+/********** Tablette **********/
+@media (max-width: 992px) {
+    /*BANNER*/
+    .banner_title {
+      font-size: 35px;
+      padding: 20px 30px;
+    }
+    .banner_info {
+      gap: 20px;
+    }
+    .reno_carousel_display{
+      width: auto;
+      height: auto;
+  }
+  .banner_img_left {
+      height: 300px;
+    }
+    .banner_img_right {
+      height: 300px;
+    }
+  .title_center{
+    font-size: 25px;
+    letter-spacing: 0.1em;
+  }
+  .renovation_cat{
+    padding-top: 10px;
+  }
+}
+  
+  /************* Mobile *******************/
+  @media (max-width: 768px) {
+    .reno_carousel_display{
+      padding: 30px;
+      height: auto;
+  }
+    .banner {
+      height: 150px;
+    }
+    .banner_title {
+      font-size: 25px;
+      padding: 20px 20px;
+      letter-spacing: 2px;
+      margin: 5px;
+    }
+    .banner_info {
+      gap: 15px;
+    }
+    .banner_img_left .banner_img_right {
+      height: 190px;
+    }
+    .renovation_cat{
+      padding-top: 0px;
+    }
+    .title_center{
+      padding: 25px;
+      font-size: 20px;
+      line-height: 22px;
+    }
+    .renovation_cat H3 {
+      padding: 0px 25px ;
+      font-size: 20px;
+    }
+   
+    .reno_carousel_display{
+      padding: 15px 25px;
+      margin: 0px auto;
+    }
+}
+    
+  
+  /**********450px*/
+  @media (max-width: 450px) {
+    .banner{
+      height: 110px;
+    }
+    .banner_title {
+      font-size: 18px;
+      padding: 5px;
+      text-transform: inherit;
+      line-height: 20px;
+    }
+    .banner_info {
+      gap: 15px;
+      padding: 10px;
+    }
+    .reno_carousel_display{
+      padding: 20px;
+    }
+    .title_center{
+      padding: 18px;
+      font-size: 16px;
+      letter-spacing: 0.03em;
+    }
+    
+    .renovation_cat H3 {
+      font-size: 18px;
+      padding: 0px 25px ;
+    }
+  }

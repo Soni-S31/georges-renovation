@@ -1,0 +1,303 @@
+/********** Desktop ************/
+.main{
+    background-color: white;
+  }
+  .h2,
+  h3,
+  h4,
+  H5 {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /*******Main****/
+  
+  .intro{
+    margin : 40px;
+  }
+  .content_intro {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: justify;
+    letter-spacing: 0.05em;
+    padding: 25px 0px;
+  }
+  /*Card*/
+  .container{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .container .card{
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .container .card .face{
+    width: 300px;
+    height: 200px;
+    transition: 0.5s;
+  }
+  
+  .container .card .face.face1{
+    position: relative;
+    background: #ba1313;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
+  }
+  
+  .container .card:hover .face.face1{
+    background: #ba1313;
+    transform: translateY(0);
+  }
+  
+  .container .card .face.face1 .content{
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .container .card:hover .face.face1 .content{
+    opacity: 1;
+  }
+  
+  .container .card .face.face1 .content img{
+    max-width: 130px;
+  }
+  
+  .container .card .face.face1 .content h3{
+    margin: 10px 0 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .container .card .face.face2{
+    position: relative;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    transform: translateY(-100px);
+    font-family: 'Hind Siliguri', sans-serif;
+  }
+  
+  .container .card:hover .face.face2{
+    transform: translateY(0);
+  }
+  
+  .container .card .face.face2 .content p{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+  }
+  
+  .container .card .face.face2 .content a{
+    margin: 15px 0 0;
+    display:  inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: #333;
+    padding: 5px;
+    border: 1px solid #333;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Hind Siliguri', sans-serif;
+  }
+  
+  .container .card .face.face2 .content a:hover{
+    background: #333;
+    color: #fff;
+  }
+  
+  .info_red{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .info_red button{
+    font-size: 20px;
+    padding: 15px 20px;
+    border-radius: 20px;
+    background-color: #ba1313;
+    cursor:pointer;
+    font-family: 'Hind Siliguri', sans-serif;
+    border: #ba1313;
+  }
+  .info_red button:hover{
+    background-color: #000000;
+  }
+  
+  .info_red a{
+    color:white;
+    text-decoration: none;
+    font-style: normal;
+    overflow-wrap: break-word;
+    letter-spacing: 0.05em;
+    font-size: 20px;
+  }
+  
+  .info_insta {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    flex-direction: column;
+  }
+  .info_insta img{
+    width: 130px;
+    padding: 20px;
+  }
+  
+  /********** Tablette **********/
+  @media (max-width: 992px) {
+    /*CONTENT*/
+    .content_intro {
+      font-size: 20px;
+      padding: 15px 0px;
+    }
+    .content_display {
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    .content_action {
+      width: 120px;
+    }
+    .content_action img {
+      width: 120px;
+      padding-bottom: 10px;
+    }
+    .content_txt {
+      font-size: 15px;
+    }
+    /*Card*/
+    .container .card .face{
+      width: 200px;
+      
+    }
+    
+    .container .card .face.face1 img{
+      width: 100px;
+    }
+    .container .card .face.face2 .content p{
+      font-size: 18px;
+    }
+  }
+  
+  /************* Mobile *******************/
+  @media (max-width: 768px) {
+    /*CONTENT*/
+    .intro{
+      margin: 0px;
+    }
+    .content_intro {
+      padding: 10px 25px;
+      font-size: 18px;
+      line-height: 30px;
+      letter-spacing: 0.03em;
+    }
+    .content_display {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .content_action {
+      width: 90px;
+    }
+    .content_action img {
+      width: 90px;
+      padding-bottom: 10px;
+    }
+    .content_txt {
+      font-size: 12px;
+    }
+    /*Card*/
+    .container{
+      flex-direction: column;
+      align-items: center;
+    }
+    .container .card .face{
+      width: 260px;
+      height: 160px;
+    }
+    .container .card .face.face1{
+      transform: translateY(60px);
+    }
+    .container .card .face.face1 .content h3{
+      font-size: 22px ;
+    }
+    
+    .container .card .face.face2{
+      padding: 15px;
+    }
+    .info_insta{
+      padding-top: 20px;
+    }
+  }
+  
+  /**********450px*/
+  @media (max-width: 450px) {
+    
+  
+    .content_intro {
+      font-size: 15px;
+      letter-spacing: 0.02em;
+      line-height: inherit;
+      padding: 10px 25px;
+    }
+    .content_display {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      gap: 30px;
+    }
+    .content_action {
+      width: 150px;
+    }
+    .content_action img {
+      width: 150px;
+      padding-bottom: 5px;
+    }
+    .content_txt {
+      font-size: 14px;
+      letter-spacing: 0.1em;
+    }
+    /*card*/
+    .container .card .face{
+      width: 230px;
+      height: 180px;
+      }
+    .container .card .face.face1 .content h3{
+      font-size: 20px ;
+    }
+    .container .card .face.face1 .content img{
+      max-width: 100px ;
+    }
+    .container .card .face.face2 {
+      padding: 10px;}
+    .container .card .face.face2 .content p{
+      font-size: 16px;
+    }
+    .container .card .face.face2 .content a{
+      font-size: 18px;
+  }
+  .container .card .face.face2 {
+    transform: translateY(-120px);
+  }
+  /*reso*/
+  .info_insta img {
+    width: 70px;
+    padding: 5px;
+  }
+  }

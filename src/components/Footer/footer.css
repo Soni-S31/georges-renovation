@@ -1,0 +1,132 @@
+/********** Desktop ************/
+.footer {
+    background-color: #ba1313;
+    color: white;
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    margin-top: 60px;
+    font-family: 'Hind Siliguri', sans-serif;
+    padding: 15px 20px;
+    align-items: flex-end;
+  }
+  
+  
+  .logo_GR {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  .footer_logo {
+    width: 120px;
+    height: 100%;
+  }
+  
+  .center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  .contact_footer button{
+    border-radius: 20px;
+    background-color: #ba1313;
+    cursor:pointer;
+    font-family: 'Hind Siliguri', sans-serif;
+    border: #ba1313;
+  }
+  .contact_footer button:hover{
+    background-color: black;
+    
+  }
+  .contact_footer a{
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+    overflow-wrap: break-word;
+    letter-spacing: 0.05em;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  
+  .footer_info {
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    flex-direction: row;
+    
+  }
+  .footer_adresse{
+    font-style: normal;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .footer_adresse a{
+    text-decoration: none;
+    color: white;
+    font-style: normal;
+    cursor: pointer;
+  }
+  
+  /********** Tablette **********/
+  @media (max-width: 992px) {
+    
+  }
+  
+  /************* Mobile *******************/
+  @media (max-width: 768px) {
+    .footer{
+      margin-top: 20px;
+      gap: 10px;
+    }
+    .footer_logo {
+      margin-top: 10px;
+    }
+    .footer_adresse{
+      flex-direction: column;
+    }
+    .footer_info {
+      font-size: 10px;}
+    .center {
+      align-items: flex-end;
+    }
+    .logo_reso {
+      width: 25px;
+      height: 25px;
+    }
+    .contact_footer a{
+      font-size: 12px;
+    }
+    
+  }
+  /************* Mobile *******************/
+  @media (max-width: 450px) {
+    .footer{
+      padding: 10px;
+    }
+    .footer_container{
+      width: 80px;
+      height: -webkit-fit-content;
+      height: -moz-fit-content;
+      height: fit-content;
+    }
+    .logo_GR{
+      width: -webkit-max-content;
+      width: -moz-max-content;
+      width: max-content;
+    }
+    .footer_info {
+      font-size: 8px;
+      line-height: 10px;
+      letter-spacing: 0.03em;
+    }
+    .footer_logo{
+      width: 90px;
+    }
+    
+  }
+  
