@@ -1,6 +1,6 @@
 import React from 'react'
 import './renovation.css'
-import Marbre from '../../assets/bannerRenovation.avif'
+import Banner from '../../assets/bannerRenovation.avif'
 import CarouselReno from '../../components/Carousel_reno'
 /* Img Salle de bain */
 import Sb1 from '../../assets/sdb/sdbbluezelige.avif'
@@ -53,8 +53,8 @@ export default function Renovation() {
       </title>
         <img
           className="banner_img"
-          src={Marbre}
-          alt="marbre brillant"
+          src={Banner}
+          alt="salle d'eau noir et blanc moderne"
         />
       </article>
       
