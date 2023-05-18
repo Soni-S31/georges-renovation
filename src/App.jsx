@@ -9,6 +9,7 @@ import ContactForm from './pages/Contact'
 import  './utils/style/globalStyle.css'
 import Plomberie from './pages/Plomberie'
 import Climatisation from './pages/Climatisation'
+import MentionsLegales from './pages/MentionsLegales'
 
 
 function App() {
@@ -21,7 +22,8 @@ function App() {
             <Route path="/Renovation" element={<Renovation />} />
             <Route path="/Plomberie" element={<Plomberie />} />
             <Route path="/Climatisation" element={<Climatisation />} />
-            <Route path="/Contact" element={<ContactForm />} />
+        <Route path="/Contact" element={<ContactForm />} />
+        <Route path="/MentionsLegales" element={<MentionsLegales/>} />
             <Route path="/*" element={<Error />} />
           </Routes>
           <Footer />
