@@ -43,6 +43,9 @@ function Header() {
           <li>
             <a href="/Contact">Contact</a>
           </li>
+          <li>
+            <a href="/MentionsLegales">Mentions Légales</a>
+          </li>
         </ul>
       </nav>
       
