@@ -40,7 +40,7 @@ function Footer() {
           </a>
           <a
             className="logo_reso"
-            href="https://www.facebook.com/georges_renovation/"
+            href="https://www.facebook.com/georgesrenovation/"
             alt="lien facebook"
           >
             <img

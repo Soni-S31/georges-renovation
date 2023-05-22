@@ -148,14 +148,14 @@ export default function Home() {
               />
             </a>
             <a
-              href="https://www.instagram.com/georges_renovation/"
+              href="https://www.facebook.com/georgesrenovation/"
               alt="lien facebook"
             >
 
             <img
               src={facebook}
                 alt="lien facebook Georges Rénovation"
-                href="https://www.instagram.com/georges_renovation/"
+                href="https://www.facebook.com/georgesrenovation/"
             />
               </a>
               </div>

@@ -82,8 +82,29 @@
 
 /************* Mobile *******************/
 @media (max-width: 768px) {
-  
-  
+  .header_info {
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo_header {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+  }
+  .logo_header img {
+    z-index: 1;
+  }
+  .show-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  #nav {
+    justify-content: normal;
+  }
   /*menu*/
   #nav{
     justify-content: normal;

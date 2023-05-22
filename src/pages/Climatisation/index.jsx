@@ -78,7 +78,7 @@ export default function Climatisation() {
             </CarouselReno>
           </div>
           <div className='content_intro'>Soucieux de l'environnement, nous utilisons des produits respectueux et économes en énergie pour réduire les émissions de gaz à effet de serre et les coûts d'exploitation de votre système de climatisation.</div>
-           <div  className='content_intro'>Nous sommes impatients de travailler avec vous pour trouver la solution de climatisation qui répond à vos besoins spécifiques et vous garantir un confort optimal. N'hésitez pas à nous contacter pour plus d'informations ou pour planifier une consultation.</div>
+           
         </article>
         </section>
     </main>
