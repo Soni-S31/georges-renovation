@@ -7,20 +7,26 @@ function ContactForm() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  const handleFormSubmit = (event) => {
+  const handleFormSubmit = async (event) => {
     event.preventDefault();
     const form = event.target;
 
-    fetch('/', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: new URLSearchParams(new FormData(form)).toString(),
-    })
-      .then(() => {
+    try {
+      const response = await fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams(new FormData(form)).toString(),
+      });
+
+      if (response.ok) {
         alert('Message envoyé avec succès !');
         form.reset();
-      })
-      .catch((error) => alert(error));
+      } else {
+        throw new Error('Une erreur s\'est produite. Veuillez réessayer plus tard.');
+      }
+    } catch (error) {
+      alert(error.message);
+    }
   };
 
   const handleNameChange = (event) => {
@@ -35,20 +41,23 @@ function ContactForm() {
     setMessage(event.target.value);
   };
 
+
   return (
-    <main className='main'>
+    <main className='main' >
       <article className="banner">
+      <title className="banner_info">
         <div className="border_banner">
           <h1 className="banner_title">Contact</h1>
         </div>
+      </title>
         <img
           className="banner_img"
           src={ContactBanner}
           alt="différentes photos : salle de bain, climatisation, outillage extérieure"
         />
       </article>
-
-      <div className="intro">
+          
+    <div className="intro">
         <div className='content_intro'>
           Vous souhaitez moderniser votre cuisine, rénover votre salle de bain, ou réaménager votre espace de travail.<br />
           Vous avez des travaux de plomberie ou vous souhaitez plus de confort en installant la climatisation.<br />
@@ -83,5 +92,6 @@ function ContactForm() {
     </main>
   );
 }
+
 
 export default ContactForm;
