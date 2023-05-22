@@ -25,7 +25,7 @@ export default function Home() {
             src={carousel1}
             alt="salle d'eau blanche robinetterie noire"
           />
-          <div class="text-animation ">Rénovation intérieure, plomberie et climatisation<br />
+          <div className="text-animation ">Rénovation intérieure, plomberie et climatisation<br />
           sur Toulouse et ses environs</div>
         </div>
         <div className="carousel-image">
@@ -34,7 +34,7 @@ export default function Home() {
             src={Carousel2}
             alt="salle d'eau noir et blanc, sol imitation parquet "
           />
-          <div class="text-animation">Votre projet clé en main</div>
+          <div className="text-animation">Votre projet clé en main</div>
         </div>
         <div className="carousel-image">
         <img
@@ -42,7 +42,7 @@ export default function Home() {
           src={Carousel3}
             alt="salle d'eau noir et blanc, sol imitation parquet "
           />
-          <div class="text-animation">Réalisons ensemble l'intérieur qui vous ressemble</div>
+          <div className="text-animation">Réalisons ensemble l'intérieur qui vous ressemble</div>
         </div>
         <div className="carousel-image">
         <img
@@ -50,7 +50,7 @@ export default function Home() {
           src={Carousel5}
             alt="salle d'eau noir et blanc, sol imitation parquet "
           />
-          <div class="text-animation">Transformez votre maison en un lieu de vie confortable</div>
+          <div className="text-animation">Transformez votre maison en un lieu de vie confortable</div>
         </div>
         
         </Carousel>
