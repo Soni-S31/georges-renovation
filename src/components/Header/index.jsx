@@ -29,9 +29,6 @@ function Header() {
             <a href="/">Accueil</a>
           </li>
           <li>
-            <a href="/About">A propos</a>
-          </li>
-          <li>
             <a href="/Renovation">Rénovation</a>
           </li>
           <li>
@@ -39,6 +36,9 @@ function Header() {
           </li>
           <li>
             <a href="/Plomberie">Plomberie</a>
+          </li>
+          <li>
+            <a href="/About">A propos</a>
           </li>
           <li>
             <a href="/Contact">Contact</a>
