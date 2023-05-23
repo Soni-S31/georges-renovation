@@ -36,7 +36,6 @@ const MentionsLegales = () => {
       <h2>Publication</h2>
           <p>Responsable de la publication : Soni Développement à Toulouse</p>
           <p>Email : sonideveloppement@gmail.com</p>
-      <p>Nom de l'hébergeur : Netlify</p>
       </article>
         <article className="content_intro">
       <h2>Protection des données personnelles</h2>
