@@ -22,7 +22,7 @@ function ContactForm() {
         alert('Message envoyé avec succès !');
         form.reset();
       } else {
-        throw new Error('Une erreur s\'est produite. Veuillez réessayer plus tard.');
+        throw new Error("Une erreur s'est produite. Veuillez réessayer plus tard.");
       }
     } catch (error) {
       alert(error.message);
@@ -41,24 +41,23 @@ function ContactForm() {
     setMessage(event.target.value);
   };
 
-
   return (
-    <main className='main' >
+    <main className="main">
       <article className="banner">
-      <title className="banner_info">
-        <div className="border_banner">
-          <h1 className="banner_title">Contact</h1>
+        <div className="banner_info">
+          <div className="border_banner">
+            <h1 className="banner_title">Contact</h1>
+          </div>
         </div>
-      </title>
         <img
           className="banner_img"
           src={ContactBanner}
           alt="différentes photos : salle de bain, climatisation, outillage extérieure"
         />
       </article>
-          
-    <div className="intro">
-        <div className='content_intro'>
+
+      <div className="intro">
+        <div className="content_intro">
           Vous souhaitez moderniser votre cuisine, rénover votre salle de bain, ou réaménager votre espace de travail.<br />
           Vous avez des travaux de plomberie ou vous souhaitez plus de confort en installant la climatisation.<br />
           Contactez-nous dès maintenant en nous décrivant votre projet et nous vous recontacterons.
@@ -68,6 +67,7 @@ function ContactForm() {
           method="POST"
           className="contact_form"
           data-netlify="true"
+          data-netlify-honeypot="bot-field"
           onSubmit={handleFormSubmit}
         >
           <input type="hidden" name="form-name" value="contact" />
@@ -76,13 +76,13 @@ function ContactForm() {
               Don't fill this out: <input name="bot-field" />
             </label>
           </p>
-          <label className='contact_label' htmlFor="name">Nom et prénom :</label>
+          <label className="contact_label" htmlFor="name">Nom et prénom :</label>
           <input type="text" name="name" value={name} onChange={handleNameChange} required />
 
-          <label className='contact_label' htmlFor="email">Email :</label>
+          <label className="contact_label" htmlFor="email">Email :</label>
           <input type="email" name="email" value={email} onChange={handleEmailChange} required />
 
-          <label className='contact_label' htmlFor="message">Message :</label>
+          <label className="contact_label" htmlFor="message">Message :</label>
           <textarea name="message" value={message} onChange={handleMessageChange} required></textarea>
 
           <button type="submit">Envoyer</button>
@@ -91,6 +91,5 @@ function ContactForm() {
     </main>
   );
 }
-
 
 export default ContactForm;
