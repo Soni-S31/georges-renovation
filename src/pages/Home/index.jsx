@@ -58,7 +58,7 @@ export default function Home() {
         <section className="intro">
         <div className="content_intro">
           Bienvenue sur notre site ! <br />
-          <br/>Artisan spécialiste du second oeuvre, plombier chauffagiste, nous sommes fiers de vous présenter notre entreprise spécialisée dans la réalisation de travaux de finition et de rénovation intérieure.
+          <br/>Artisans spécialistes du second oeuvre, plombiers chauffagistes, nous sommes fiers de vous présenter notre entreprise spécialisée dans la réalisation de travaux de finition et de rénovation intérieure.
             Nous sommes passionnés par notre métier et nous mettons tout notre savoir-faire et notre expérience à votre disposition pour vous accompagner dans vos projets de rénovation. 
             <br/>Nous intervenons dans différents domaines sur Toulouse et ses environs :
           </div>

@@ -63,12 +63,12 @@ export default function Renovation() {
       Nos réalisations
         </title>
         <div className='content_intro'>
-        Nous sommes fiers de vous présenter quelques-unes de nos réalisations. En tant qu'artisan passionné par notre métier, nous avons eu la chance de travailler sur de nombreux projets variés, du plus petit au plus grand. Nous avons toujours à cœur de répondre aux besoins spécifiques de nos clients en proposant des solutions sur-mesure et personnalisées. Nous sommes constamment à la recherche de nouvelles tendances et de nouveaux matériaux pour vous offrir des réalisations esthétiques et fonctionnelles, qui correspondent à vos goûts et à vos attentes.
+        Nous sommes fiers de vous présenter quelques-unes de nos réalisations. En tant qu'artisans passionnés par notre métier, nous avons eu la chance de travailler sur de nombreux projets variés, du plus petit au plus grand. Nous avons toujours à cœur de répondre aux besoins spécifiques de nos clients en proposant des solutions sur-mesure et personnalisées. Nous sommes constamment à la recherche de nouvelles tendances et de nouveaux matériaux pour vous offrir des réalisations esthétiques et fonctionnelles, qui correspondent à vos goûts et à vos attentes.
         </div>
         <article className='renovation_cat'>
           
             <h3>Les salles de bain</h3>
-            <div className='content_intro'>Spécialisés dans la conception et la création de salles de bains sur-mesure, nous apportons notre savoir-faire et notre expertise à votre service pour vous offrir des espaces de détente et de bien-être uniques, adaptés à vos besoins et à vos envies. Nous vous aidons à sélectionner les matériaux les plus nobles et les plus durables pour garantir la qualité et la longévité de nos réalisations. Que vous recherchiez une salle de bain moderne, traditionnelle ou contemporaine, nous saurons répondre à toutes vos attentes.</div>
+            <div className='content_intro'>Spécialisés dans la conception et la création de salles de bains sur-mesure. Nous apportons notre savoir-faire et notre expertise à votre service pour vous offrir des espaces de détente et de bien-être uniques, adaptés à vos besoins et à vos envies. Nous vous aidons à sélectionner les matériaux les plus nobles et les plus durables pour garantir la qualité et la longévité de nos réalisations. Que vous recherchiez une salle de bain moderne, traditionnelle ou contemporaine, nous saurons répondre à toutes vos attentes.</div>
           <div className='reno_carousel_display'>
             <CarouselReno>
             <img

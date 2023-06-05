@@ -8,6 +8,7 @@ import instagram from '../../assets/instagram.svg';
 function Footer() {
   return (
     <footer className="footer">
+      <div className='container_info'>
       <div className="footer_container">
         <Link className="logo_GR" to="/">
           <img
@@ -24,7 +25,7 @@ function Footer() {
           <a href="tel:+33695975087"> Tél. : 06 95 97 50 87</a>  
         </address>
       </div>
-
+    </div>
       <div className="center">
         <div className="reso">
           <a
