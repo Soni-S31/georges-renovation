@@ -2,6 +2,7 @@ import React from 'react'
 import Climbanner from '../../assets/clim/bannerClimatisation.avif'
 import CarouselReno from '../../components/Carousel_reno'
 /* Img clim carousel */
+
 import Clim1 from '../../assets/clim/clim01.avif'
 import Clim5 from '../../assets/clim/clim02.avif'
 import Clim2 from '../../assets/clim/clim03.avif'

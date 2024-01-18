@@ -31,12 +31,12 @@ function Header() {
           <li>
             <a href="/Renovation">Rénovation</a>
           </li>
-          <li>
+           {/* <li>
             <a href="/Climatisation">Climatisation</a>
           </li>
           <li>
             <a href="/Plomberie">Plomberie</a>
-          </li>
+          </li>  */}
           <li>
             <a href="/About">A propos</a>
           </li>
