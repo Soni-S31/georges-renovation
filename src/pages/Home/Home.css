@@ -164,8 +164,9 @@
   @media (max-width: 992px) {
     /*CONTENT*/
     .content_intro {
-      font-size: 20px;
+      font-size: 17px;
       padding: 15px 0px;
+      line-height: 25px;
     }
     .content_display {
       margin-top: 30px;
@@ -202,9 +203,9 @@
       margin: 0px;
     }
     .content_intro {
-      padding: 10px 25px;
+      padding: 20px 40px;
       font-size: 18px;
-      line-height: 30px;
+      line-height: 25px;
       letter-spacing: 0.03em;
     }
     .content_display {

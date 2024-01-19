@@ -2,8 +2,8 @@ import React from 'react'
 import './Home.css'
 import Carousel from '../../components/Carousel/carousel'
 import Sdb from '../../assets/salle-de-bain.avif'
-import Plombier from '../../assets/plombier.avif'
-import Clim from '../../assets/climatisation.avif'
+//import Plombier from '../../assets/plombier.avif'
+//import Clim from '../../assets/climatisation.avif'
 import carousel1 from '../../assets/sdbcarousel0.avif'
 import Carousel2 from '../../assets/sdbcarousel1.avif' 
 import Carousel3 from '../../assets/sdbcarousel2.avif'
@@ -25,7 +25,7 @@ export default function Home() {
             src={carousel1}
             alt="salle d'eau blanche robinetterie noire"
           />
-          <div className="text-animation ">Rénovation intérieure, plomberie et climatisation<br />
+          <div className="text-animation ">Rénovation intérieure<br />
           sur Toulouse et ses environs</div>
         </div>
         <div className="carousel-image">
@@ -58,9 +58,9 @@ export default function Home() {
         <section className="intro">
         <div className="content_intro">
           Bienvenue sur notre site ! <br />
-          <br/>Artisans spécialistes du second oeuvre, plombiers chauffagistes, nous sommes fiers de vous présenter notre entreprise spécialisée dans la réalisation de travaux de finition et de rénovation intérieure.
+          <br/>Artisans spécialistes du second oeuvre, nous sommes fiers de vous présenter notre entreprise spécialisée dans la réalisation de travaux de finition et de rénovation intérieure.
             Nous sommes passionnés par notre métier et nous mettons tout notre savoir-faire et notre expérience à votre disposition pour vous accompagner dans vos projets de rénovation. 
-            <br/>Nous intervenons dans différents domaines sur Toulouse et ses environs :
+            <br/>Nous intervenons sur Toulouse et ses environs.
           </div>
           <div className="container">
             <div className="card">
@@ -83,43 +83,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="card">
-            <div className="face face1">
-                <div className="content">
-                  <img
-                    src={Clim}
-                    alt="Logo salle de bain dessiné  noir et blanc"
-                  />
-                  <h3>Climatisation</h3>
-                </div>
-              </div>
-              <div className="face face2">
-                <div className="content">
-                  <p>
-                    Artisan certifié, nous installons et assurons la maintenance
-                    de climatisation.{' '}
-                  </p>
-                  <a href="/Climatisation">Climatisation</a>
-                </div>
-              </div>
-          </div>
-            <div className="card">
-            <div className="face face1">
-                <div className="content">
-                  <img src={Plombier} alt="Logo noir & Blanc Plombier" />
-                  <h3>Plomberie</h3>
-                </div>
-              </div>
-              <div className="face face2">
-                <div className="content">
-                  <p>
-                    Installation, entretien et dépannage de plomberie, chaudières
-                    et sanitaires.
-                  </p>
-                  <a href="/Plomberie">Plomberie</a>
-                </div>
-              </div>
-            </div>
+           
         </div>
         <div className="content_intro">
         Nous attachons une grande importance à la qualité de notre travail et à la satisfaction de nos clients. C'est pourquoi nous utilisons des matériaux de qualité et des techniques modernes pour garantir un résultat final impeccable. Nous sommes également à votre écoute pour comprendre vos besoins et vos attentes afin de vous proposer des solutions sur mesure qui répondent parfaitement à vos exigences.

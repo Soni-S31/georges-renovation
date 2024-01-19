@@ -48,7 +48,7 @@ export default function Renovation() {
     <article className="banner">
       <title className="banner_info">
         <div className="border_banner">
-          <h1 className="banner_title">Rénovation</h1>
+          <h1 className="banner_title">Nos réalisations</h1>
         </div>
       </title>
         <img
@@ -59,9 +59,6 @@ export default function Renovation() {
       </article>
       
       <section className='intro'>
-      <title className="title_center">
-      Nos réalisations
-        </title>
         <div className='content_intro'>
         Nous sommes fiers de vous présenter quelques-unes de nos réalisations. En tant qu'artisans passionnés par notre métier, nous avons eu la chance de travailler sur de nombreux projets variés, du plus petit au plus grand. Nous avons toujours à cœur de répondre aux besoins spécifiques de nos clients en proposant des solutions sur-mesure et personnalisées. Nous sommes constamment à la recherche de nouvelles tendances et de nouveaux matériaux pour vous offrir des réalisations esthétiques et fonctionnelles, qui correspondent à vos goûts et à vos attentes.
         </div>
