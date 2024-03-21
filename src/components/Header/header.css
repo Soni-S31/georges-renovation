@@ -11,9 +11,22 @@
 
 .logo_header {
   display: flex;
-  justify-content: center;
   margin: 25px 0px 0px 0px;
-  height: 75px;
+  
+}
+.logo_RGE {
+  height: 60px;
+  display: flex;
+  margin-left: 5px;
+  display: flex;
+  justify-content: flex-start;
+}
+.header_GR{
+  height: 90px;
+  margin: 25px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 /*Menu */
@@ -89,11 +102,17 @@
 
   .logo_header {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
     margin: 15px 0;
   }
   .logo_header img {
     z-index: 1;
+  }
+  .logo_RGE{
+    height: 40px;
+    display: flex;
+    position: absolute;
   }
   .show-menu {
     position: absolute;

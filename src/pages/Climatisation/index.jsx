@@ -29,14 +29,14 @@ export default function Climatisation() {
       </article>
       <section className='intro'>
       <title className="title_center">
-      Installateur agréé de climatisation
+      Installateur certifié RGE Qualipac en climtisation
         </title>
         
         <article className='renovation_cat'>
         <div className='content_intro'>
-       Georges Rénovation est agréé pour l'installation de systèmes de climatisation des particuliers et des professionnels.
+       Georges Rénovation est certifié RGE Qualipac pour l'installation et la maintenance de systèmes de climatisation des particuliers et des professionnels.
         </div>
-          <div className='content_intro'>Nos installateurs sont des professionnels qualifiés et expérimentés dans leur domaine, et ils se tiennent au courant des dernières technologies et des normes de sécurité en vigueur. Ils sont disponibles pour vous fournir des conseils personnalisés sur le choix du système de climatisation adapté à vos besoins et à votre budget.</div>
+          <div className='content_intro'>Nous sommes qualifiés et expérimentés dans le domaine, et nous nous tenons au courant des dernières technologies et des normes de sécurité en vigueur. Ils sont disponibles pour vous fournir des conseils personnalisés sur le choix du système de climatisation adapté à vos besoins et à votre budget.</div>
           <div className='content_intro'>Nous travaillons avec les meilleures marques du marché pour vous fournir des produits de haute qualité qui répondent à vos besoins et à votre budget.</div>
           <div className='content_intro'>En plus de l'installation, nous effectuons également la maintenance et la réparation pour vous assurer que votre système de climatisation reste en bon état de fonctionnement tout au long de son cycle de vie.</div>
           <div className='reno_carousel_display'>

@@ -48,7 +48,7 @@ export default function Renovation() {
     <article className="banner">
       <title className="banner_info">
         <div className="border_banner">
-          <h1 className="banner_title">Nos réalisations</h1>
+          <h1 className="banner_title">Rénovation</h1>
         </div>
       </title>
         <img
