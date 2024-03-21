@@ -1,7 +1,9 @@
 /********** Desktop ************/
-.logo_RGE{
+.logo_RGE_clim{
+  display: flex;
   justify-content: center;
   margin-bottom: 5px;
+  height: 70px;
 }
 .content_clim{
   display: flex;
@@ -12,7 +14,7 @@
 }
 .clim_samsung_tittle{
   font-size: 25px;
-  padding: Opx 0px 15px 0px;
+  padding: 0px 0px 15px 0px;
 }
 .clim_samsung {
   font-size: 20px;
@@ -27,12 +29,47 @@
   @media (max-width: 992px) {
     .content_clim{
       line-height:25px ;
-  }
+  }}
 /************* Mobile *******************/
 @media (max-width: 768px) {
+    .clim_samsung_img{
+      width: 80%;
+    }
+  .content_clim {
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    line-height: 25px;
+    padding: 20px 40px;
+}
+.clim_samsung_tittle{
+  font-size: 22px;
+}
+.clim_samsung{
+  font-size: 20px;
+}
+.clim_samsung_price{
+  text-align: center;
+  font-size: 18px;
+}
 
 }
 /**********450px*/
 @media (max-width: 450px) {
-
-}}
+  .content_clim {
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    line-height: inherit;
+    padding: 10px 25px;
+}
+.clim_samsung_tittle{
+  font-size: 20px;
+}
+.clim_samsung{
+  font-size: 18px;
+}
+.clim_samsung_price{
+  text-align: center;
+  font-size: 15px;
+}
+}

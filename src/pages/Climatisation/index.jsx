@@ -40,7 +40,7 @@ export default function Climatisation() {
         <div className='content_intro'>
        Georges Rénovation est certifié RGE Qualipac pour l'installation et la maintenance de systèmes de climatisation des particuliers et des professionnels.
           </div>
-          <Link className="logo_RGE" to="https://www.qualit-enr.org/entreprises/georges-renovation/">
+          <Link className="logo_RGE_clim" to="https://www.qualit-enr.org/entreprises/georges-renovation/">
         <img
           src={RGE}
           alt="logo RGE Qualipac"
@@ -55,7 +55,7 @@ export default function Climatisation() {
               />
             <div className='clim_samsung_tittle'>SAMSUNG Wind Free</div>
             <div className='clim_samsung'>Le confort sans courant d'air</div>
-            <div className='clim_samsung_price'>La game Comfort à partir de 1600€ TTC pour 25m² environ </div>
+            <div className='clim_samsung_price'>La game Comfort à partir de 1600€ TTC pour 25m² environ</div>
           
           </div>
           

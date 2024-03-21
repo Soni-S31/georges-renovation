@@ -5,6 +5,7 @@ import Sdb from '../../assets/salle-de-bain.avif'
 //import Plombier from '../../assets/plombier.avif'
 import Clim from '../../assets/climatisation.avif'
 import carousel1 from '../../assets/sdbcarousel0.avif'
+import Clim5 from '../../assets/clim/climsamsung.avif'
 import Carousel2 from '../../assets/sdbcarousel1.avif' 
 import Carousel3 from '../../assets/sdbcarousel2.avif'
 import Carousel5 from '../../assets/saloncarousel1.avif'
@@ -25,8 +26,16 @@ export default function Home() {
             src={carousel1}
             alt="salle d'eau blanche robinetterie noire"
           />
-          <div className="text-animation ">Rénovation intérieure<br />
+          <div className="text-animation ">Climatisation & Rénovation intérieure<br />
           sur Toulouse et ses environs</div>
+        </div>
+        <div className="carousel-image">
+          <img
+            className="carousel_img"
+            src={Clim5}
+            alt="chambre rénovée parquet bois avec climatisation réversible samsung wind free "
+          />
+          <div className="text-animation">Climatisation & Rénovation intérieure</div>
         </div>
         <div className="carousel-image">
           <img
@@ -58,9 +67,7 @@ export default function Home() {
         <section className="intro">
         <div className="content_intro">
           Bienvenue sur notre site ! <br />
-          <br/>Artisans spécialistes du second oeuvre, nous sommes fiers de vous présenter notre entreprise spécialisée dans la climatisation et la rénovation intérieure.
-            Nous sommes passionnés par notre métier et nous mettons tout notre savoir-faire et notre expérience à votre disposition pour vous accompagner dans vos projets de rénovation. 
-            <br/>Nous intervenons sur Toulouse et ses environs.
+          <br/>Artisans spécialisés dans la climatisation et la rénovation intérieure, nous sommes passionnés par notre métier et nous mettons tout notre savoir-faire et notre expérience à votre disposition pour vous accompagner dans vos projets. 
           </div>
           <div className="container">
             <div className="card">
@@ -97,7 +104,7 @@ export default function Home() {
               <div className="face face2">
                 <div className="content">
                   <p>
-                    Artisan certifié RGE, nous installons et assurons la maintenance
+                    Artisans certifiés RGE, nous installons et assurons la maintenance
                     de climatisation.{' '}
                   </p>
                   <a href="/Climatisation">Climatisation</a>
