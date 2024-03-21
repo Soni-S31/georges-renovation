@@ -1,6 +1,10 @@
+import { Link } from 'react-router-dom'
 import React from 'react'
+import './Climatisation.css';
 import Climbanner from '../../assets/clim/bannerClimatisation.avif'
 import CarouselReno from '../../components/Carousel_reno'
+import RGE from '../../assets/clim/logo-QualiPAC-2024-RGE-01.png'
+import Climsamsung from '../../assets/clim/samsung wind free.png'
 /* Img clim carousel */
 
 import Clim1 from '../../assets/clim/clim01.avif'
@@ -29,16 +33,33 @@ export default function Climatisation() {
       </article>
       <section className='intro'>
       <title className="title_center">
-      Installateur certifié RGE Qualipac en climtisation
+      Restez cool toute l'année avec notre expertise en climatisation !
         </title>
         
         <article className='renovation_cat'>
         <div className='content_intro'>
        Georges Rénovation est certifié RGE Qualipac pour l'installation et la maintenance de systèmes de climatisation des particuliers et des professionnels.
-        </div>
-          <div className='content_intro'>Nous sommes qualifiés et expérimentés dans le domaine, et nous nous tenons au courant des dernières technologies et des normes de sécurité en vigueur. Ils sont disponibles pour vous fournir des conseils personnalisés sur le choix du système de climatisation adapté à vos besoins et à votre budget.</div>
-          <div className='content_intro'>Nous travaillons avec les meilleures marques du marché pour vous fournir des produits de haute qualité qui répondent à vos besoins et à votre budget.</div>
-          <div className='content_intro'>En plus de l'installation, nous effectuons également la maintenance et la réparation pour vous assurer que votre système de climatisation reste en bon état de fonctionnement tout au long de son cycle de vie.</div>
+          </div>
+          <Link className="logo_RGE" to="https://www.qualit-enr.org/entreprises/georges-renovation/">
+        <img
+          src={RGE}
+          alt="logo RGE Qualipac"
+        />
+        </Link>
+          <div className='content_intro'>Nous sommes disponibles pour vous fournir des conseils personnalisés sur le choix du système de climatisation adapté à vos besoins et à votre budget. Nous travaillons avec les meilleures marques du marché pour vous fournir des produits de haute qualité.</div>
+          <div className='content_clim'>
+            <img
+              className="clim_samsung_img"
+              src={Climsamsung}
+              alt="Clim réversible samsung windfree"
+              />
+            <div className='clim_samsung_tittle'>SAMSUNG Wind Free</div>
+            <div className='clim_samsung'>Le confort sans courant d'air</div>
+            <div className='clim_samsung_price'>La game Comfort à partir de 1600€ TTC pour 25m² environ </div>
+          
+          </div>
+          
+          <div className='content_intro'>En plus de l'installation, nous effectuons la maintenance et la réparation pour vous assurer que votre système de climatisation reste en bon état de fonctionnement tout au long de son cycle de vie.</div>
           <div className='reno_carousel_display'>
             <CarouselReno>
               <img
@@ -78,6 +99,7 @@ export default function Climatisation() {
               />
             </CarouselReno>
           </div>
+          <div className='content_intro'>Qualifiés et expérimentés dans le domaine, nous nous tenons au courant des dernières technologies et des normes de sécurité en vigueur. </div>
           <div className='content_intro'>Soucieux de l'environnement, nous utilisons des produits respectueux et économes en énergie pour réduire les émissions de gaz à effet de serre et les coûts d'exploitation de votre système de climatisation.</div>
            
         </article>

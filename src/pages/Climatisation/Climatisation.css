@@ -1,0 +1,38 @@
+/********** Desktop ************/
+.logo_RGE{
+  justify-content: center;
+  margin-bottom: 5px;
+}
+.content_clim{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 35px;
+  letter-spacing: 0.05em;
+}
+.clim_samsung_tittle{
+  font-size: 25px;
+  padding: Opx 0px 15px 0px;
+}
+.clim_samsung {
+  font-size: 20px;
+  padding: 5px 0px;
+}
+.clim_samsung_price {
+  font-size: 20px;
+  padding: 5px 0px 20px 0px;
+}
+
+/********** Tablette **********/
+  @media (max-width: 992px) {
+    .content_clim{
+      line-height:25px ;
+  }
+/************* Mobile *******************/
+@media (max-width: 768px) {
+
+}
+/**********450px*/
+@media (max-width: 450px) {
+
+}}
